@@ -1,0 +1,82 @@
+.products{
+    margin: 4rem 4rem;
+}
+
+.products h1{
+    font-size: 3rem;
+    color: rgb(241, 74, 108);
+    margin-bottom: 15px;
+}
+
+.first-pro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-pro-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.pro-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.pro-text h2{
+    padding-bottom: 1rem;
+    color: rgb(165, 16, 66);
+}
+
+.img-pro{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.img-pro img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px peachpuff;
+}
+
+@media screen and (max-width: 769px){
+    .products{
+        margin: 4rem 2rem;
+    }
+    
+    .first-pro{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .first-pro-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .pro-text{
+        width: 100%;
+    }
+
+    .img-pro{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .img-pro img{
+        height: 250px;
+    }
+}
