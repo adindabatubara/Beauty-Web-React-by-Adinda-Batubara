@@ -14,8 +14,7 @@ const App = () => {
   );
 }
 
-//  contoh apakah akan terpush hehehe
-// aku tambahin lagi untuk memastikan
+
 // function App() {
 //   // const adminUser={
 //   //   email:"adinda@gmail.com",
