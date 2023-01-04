@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import './App.css';
-import {LogIn} from './components/LogIn';
-import {Register} from './components/Register';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+// import {LogIn} from './components/LogIn';
+// import {Register} from './components/Register';
+// import Footer from './components/Footer';
+// import Navbar from './components/Navbar';
 import AppRouter from './App.router';
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
   );
 }
 
+//  contoh apakah akan terpush hehehe
 // function App() {
 //   // const adminUser={
 //   //   email:"adinda@gmail.com",
